@@ -1,0 +1,23 @@
+
+.bg-myLight{
+    color: #EE1B24;
+    padding:4px;
+    background: #fff;
+}
+
+.nav-link{
+    margin: 15px;
+    color: #EE1B24 !important;
+    padding-right: 4px;
+
+
+}
+
+
+.navbrand{
+    color: #EE1B24;
+    text-decoration: none;
+    margin-left:20px;
+    font-size:1.3rem;
+  }
+  
