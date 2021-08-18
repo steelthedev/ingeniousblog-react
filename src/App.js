@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import NavBar from './navbar';
 import Home from './home';
@@ -8,29 +8,32 @@ import Post from './blogdetails';
 
 function App() {
   return (
-    <div className="App">
+  
        
        <Router>
+           <div className="App">
        <NavBar />
-
+       <div className="content">
        <Switch>
-        <div className="content"></div>
+    
         <Route exact path="/">
         <Home />
         </Route>
 
-        <Route path="/blog/slug">
+        <Route path="/blog/:slug">
           <Post />
         </Route>
 
 
 
        </Switch>
+       </div>
+       </div>
        </Router>
 
+      
 
-      <Home />
-    </div>
+     
   );
 }
 

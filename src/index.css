@@ -85,3 +85,109 @@ body{
 .post-card .card-content .author span {
     margin: 1px;
 }
+
+
+.single-card{
+    padding: 20px;
+    background:#fff;
+    margin: 10px 0;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.single-card .post-image img{
+     padding:  4px;
+     border-radius: 12px;
+     border: 1px solid transparent;
+     margin-top: -50px;
+     transition: .5s;
+}
+
+.single-card .post-image img:hover{
+    transform: scale(1.03);
+}
+
+.single-card .post-content .content-category{
+    padding: 13px;
+    margin-top:3px;
+}
+
+.single-card .post-content .content-category span{
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 12%;
+    background: #EE1B24;
+    padding: 4px;
+    color: #fff;
+}
+
+.single-card .post-content .post-title{
+    padding: 4px;
+
+}
+
+.single-card .post-content .post-title h2{
+    font-size: 3rem;
+    font-weight: 500;
+  
+}
+
+.single-card .post-content .post-author{
+    padding: 2px;
+    margin: 2px;
+}
+
+.single-card .post-content .post-author img {
+   width:10%;
+   margin-right:14px;
+}
+
+.single-card .post-content .post-author span {
+    margin: 1px;
+    margin-right:7px;
+    font-size: 1.4rem;
+}
+
+.single-card .post-content .post-author .fa-dot-circle-o{
+    padding: 3px;
+    color: #EE1B24;
+    font-size: 1rem;
+    margin: 4px;
+}
+
+.single-card .post-content .post-words{
+    padding: 10px;
+    font-size: 1.4rem;
+    color: #111;
+    margin-top: 4px;
+}
+
+.author-details{
+    padding:24px;
+    background: #fff;
+    border-radius: 10px;
+
+}
+
+.author-details .rounded-img{
+    border: 1px solid transparent;
+    border-radius:10px;
+    margin: 10px 0;
+}
+
+.author-details .socials{
+    padding: 10px;
+   
+}
+
+.author-details .socials .fa{
+    font-size: 1.7rem;
+    color: #fff;
+    padding: 12px;
+    background: #EE1B24;
+    margin: 6px;
+    border-radius: 60%;
+    
+
+}

@@ -43,7 +43,8 @@ useEffect(() => {
 
 }, [url]);
 
-return {data, error , isPending}
+return {data, error , isPending }
+
 }
 
 export default useFetch;

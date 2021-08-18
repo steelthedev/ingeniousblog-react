@@ -1,17 +1,12 @@
 import { Link } from "react-router-dom";
-import beautiful from "./assets/blog/21.jpg"
-import useFetch from "./useeffect";
 const BlogList = ({blogs}) => {
-
-    const baseUrl = "https://localhost:8000";
-    
 
     return ( 
         <section className="home">
             <div className="container">
                 <div className="row justify-content-center mt-5 pt-5 ">
                           {blogs.map((blog) =>(
-                                <div className="col-lg-4 col-md-4 mt-3 pt-2" ke={blog.slug}>
+                                <div className="col-lg-4 col-md-4 mt-3 pt-2" key={blog.slug}>
                                 <div className="post-card">
                                    <div className="card-image text-center ">
                                        <img src={blog.media} alt="blog-post" width="100%" />
@@ -20,7 +15,7 @@ const BlogList = ({blogs}) => {
                                        <div className="content-category">
                                            <span>{blog.category}</span>
                                        </div>
-                                       <Link to ={`/blog/${blog.slug}`}>
+                                       <Link to={`/blog/${blog.slug}`}>
                                        <div className="card-title">
                                            <h6>{blog.title}</h6>
                                        </div>
